@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/circle_profile.xml" value="0.18" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/edit_shape.xml" value="0.18" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.3375" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/image_capture.xml" value="0.3375" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/login_bt.xml" value="0.18" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/logout.xml" value="0.181" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/password.xml" value="0.181" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/drawable/schedule.xml" value="0.35" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_add_health_data.xml" value="0.2451567453328637" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_health_history_web_view.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_lab_report.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_main.xml" value="0.23300555793073963" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_menu.xml" value="0.275" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_patient_information.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_patients_add_form.xml" value="0.23300555793073963" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_patients_list.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_prescription_image.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_reg_succes_message.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_schedule_list.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/activity_set_schedule.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/custom_time_picker.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/dilog_searchable_spinner.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_add__health__data.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_authorized__family__member.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_p.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_patient_photo.xml" value="0.2894399315946986" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_patients_reg.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_previous__schedule.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_today__schedule.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_today_schedule.xml" value="0.33" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_upcoming__schedule.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/fragment_web_view.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/schedule_list.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/layout/user_list.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3375" />
+        <entry key="..\:/Users/Shukanto/AndroidStudioProjects/Receptionist/app/src/main/res/mipmap-anydpi-v26/icon.xml" value="0.196" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

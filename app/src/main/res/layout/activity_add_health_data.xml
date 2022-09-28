@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Add_Health_Data">
+
+
+    <ProgressBar
+        android:id="@+id/page_loading"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:elevation="20dp"
+        />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="118dp"
+            android:text="Add Health Data"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <TextView
+                android:id="@+id/pulse_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Pulse Rate (beats/min)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/pulse_rat_ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pulse_rate"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="pulse rate "
+        android:inputType="number"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/blood_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pulse_rat_ET"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Blood Pressure (mm Hg)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/blood_pressure_ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/blood_pressure"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="systolic/diastolic  "
+        android:inputType="text"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/blood_glucose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blood_pressure_ET"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Blood Glucose  (mmol/L)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/blood_glucose_ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/blood_glucose"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="blood glucose"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blood_glucose_ET"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Temperature (°F)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/temperature_ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/temperature"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="temperature"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/temperature_ET"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Height (Feet/Inch)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/height_ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/height"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="height"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/height_ET"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Weight (Kg)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/weight_Et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/weight"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="weight"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/sleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weight_Et"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Sleep (Hours/day)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/sleep_ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/sleep"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="sleep hour"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Next_bt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/login_bt"
+        android:text="Submit"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

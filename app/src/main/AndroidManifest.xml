@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sukanto.receptionist">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Receptionist">
+        <activity
+            android:name=".Patient_Information"
+            android:exported="false" />
+        <activity
+            android:name=".Health_History_WebView"
+            android:exported="false" />
+        <activity
+            android:name=".Reg_succes_message"
+            android:exported="false" />
+        <activity
+            android:name=".Prescription_Image"
+            android:exported="false" />
+        <activity
+            android:name=".Lab_Report"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Health_Data"
+            android:exported="false" />
+        <activity
+            android:name=".Set_Schedule"
+            android:exported="false" />
+        <activity
+            android:name=".Schedule_list"
+            android:exported="false" />
+        <activity
+            android:name=".Patients_list"
+            android:exported="false" />
+        <activity
+            android:name=".Patients_add_Form"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

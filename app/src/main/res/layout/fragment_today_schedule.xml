@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Today_Schedule">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/page_loading"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/text_layout"
+        >
+
+        <EditText
+            android:id="@+id/search_id"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/edit_shape"
+            android:hint="Search....."
+            android:iconifiedByDefault="false"
+            android:queryHint="Search Here"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toady Appointments"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+       android:layout_marginTop="60dp"
+        android:layout_marginLeft="5sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"/>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</FrameLayout>
